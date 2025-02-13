@@ -1,7 +1,27 @@
 .main-page {
     text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(12 12 12);
+    color: rgb(190 190 190);
+}
+
+.main-content {
+    outline-color: aquamarine;
+    display: flex;
+    text-align: left;
+    gap: 10vw;
 }
 
 .header {
     text-align: center;
+    font-size: clamp(2.5rem, 3vw + .5rem, 7rem);
+}
+
+.links-and-brief-intro {
+    margin-left: 10vw;
+}
+
+.name {
+    color: #e2e8f0;
 }
